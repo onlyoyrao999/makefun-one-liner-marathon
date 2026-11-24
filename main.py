@@ -24,7 +24,14 @@ Revision 2 — final (147 chars):
     fridge is a witness, the apology is offered to the appliance
     itself, and the guilt is aimed at the wrong thing entirely.
 
-The entry is exactly one line, 147 characters, with no trailing
+Revision 3 — parent-session polish (145 chars):
+    "My smart fridge judges my midnight snacking — fair enough, it
+    watched me eat a whole cheesecake at 2 a.m. and then offer it a
+    slice out of guilt."
+    Cut "which is fair" to "fair enough": same shrug, seven fewer
+    characters, and the dash sets up the confession faster.
+
+The entry is exactly one line, 145 characters, with no trailing
 newline. Run with --print to also print the entry, or --output <path>
 to write it elsewhere; with no flags it writes /output/entry.txt.
 """
@@ -33,9 +40,9 @@ import argparse
 import os
 import sys
 
-ENTRY = ("My smart fridge judges my midnight snacking, which is fair — "
-         "it watched me eat a whole cheesecake at 2 a.m. and then offer "
-         "it a slice out of guilt.")
+ENTRY = ("My smart fridge judges my midnight snacking — fair enough, it "
+         "watched me eat a whole cheesecake at 2 a.m. and then offer it "
+         "a slice out of guilt.")
 OUTPUT_PATH = "/output/entry.txt"
 
 
